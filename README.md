@@ -61,22 +61,22 @@ EWT
  - 2D                           : 2D EWT functions
    - Curvelet 					: Empirical curvelet transform
    - Littlewood-Paley 			: Empirical Littlewood-Paley wavelet transform
- |    | - Ridgelet 					: Empirical Ridgelet transform
- |    | - Tensor 					: Empirical Tensor wavelet transform
- |    | - Voronoi                   : Empirical Voronoi wavelet transform
- |    | - Watershed                 : Empirical Watershed wavelet transform
- | - Boundaries					: functions used to perform to Fourier supports
- |    | - LocalMaxima				: Functions performing detections based on local maxima and midway or localminima
- |    | - MorphoMath				: Functions performing the Morphological operator to preprocess the spectrum
- |    | - PowerLaw					: Function preprocessing the spectrum by removing its power law approximation
- |    | - ScaleSpace				: Functions to perform the detection based on the scale-space method
- | - Documentation				: Toolbox documentation
- | - Tests
- |	  | - 1D						: Functions to perform basic tests on several 1D signals
- |	  | - 2D						: Functions to perform basic tests of the several 2D transforms on different images
- | - Utilities
- |    | - 1D						: Useful function to plot results in 1D case (Time-Frequency plane, components, boundaries)
- |    | - 2D						: Useful function to plot results in 2D case (different type of components, 2D boundaries,...)
+   - Ridgelet 					: Empirical Ridgelet transform
+   - Tensor 					: Empirical Tensor wavelet transform
+   - Voronoi                   : Empirical Voronoi wavelet transform
+   - Watershed                 : Empirical Watershed wavelet transform
+ - Boundaries					: functions used to perform to Fourier supports
+   - LocalMaxima				: Functions performing detections based on local maxima and midway or localminima
+   - MorphoMath				: Functions performing the Morphological operator to preprocess the spectrum
+   - PowerLaw					: Function preprocessing the spectrum by removing its power law approximation
+   - ScaleSpace				: Functions to perform the detection based on the scale-space method
+ - Documentation				: Toolbox documentation
+ - Tests
+   - 1D						: Functions to perform basic tests on several 1D signals
+   - 2D						: Functions to perform basic tests of the several 2D transforms on different images
+ - Utilities
+   - 1D						: Useful function to plot results in 1D case (Time-Frequency plane, components, boundaries)
+   - 2D						: Useful function to plot results in 2D case (different type of components, 2D boundaries,...)
 
 ==========================================================
 					UTILIZATION
