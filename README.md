@@ -18,7 +18,7 @@ Preprint available at https://jegilles.sdsu.edu/doc/SSHS.pdf
 This toolbox is freely distributed and can be used without any charges for research purposes but I will appreciate if you cite the previous papers ;-)
 If you want to use this code for commercial purposes, please contact me before.
 
-For any questions, comments (if you find a bug please send me all information so I can fix it and update the toolbox) must be send to jegilles@math.ucla.edu
+For any questions, comments (if you find a bug please send me all information so I can fix it and update the toolbox) must be send to jgilles@sdsu.edu
 
 If you develop some new functionalities and want them included in this toolbox, just provide me the corresponding files and which credit I must add in this README file.
 
