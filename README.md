@@ -22,9 +22,8 @@ For any questions, comments (if you find a bug please send me all information so
 
 If you develop some new functionalities and want them included in this toolbox, just provide me the corresponding files and which credit I must add in this README file.
 
-=======================
-		VERSION
-=======================
+VERSION
+
 - Current version: 5.0 (July 12th, 2020): fix a few minor bugs + add both the Empirical Watershed Wavelet and Empirical Voronoi Wavelet transforms.
 - Previous version: 4.0 (December 13th, 2019): This is a major revision! The 1D transform can now handle complex signals (i.e the empirical wavelets are themselves complex since they are not necessarily symmetric in the Fourier domain). The construction of the curvelet filters has been revised, simplified in order to guarantee almost perfect reconstruction. All other 2D transforms have been cleaned and simplified when possible. The plotting functions now add some title to each subfigure. In term of organization, almost all functions now contain the acronym 'EWT' in their name (most of the time as a prefix) to avoid any conflict with external functions.
 - Previous version: 3.4 (November 20th, 2019): fix a bug in the construction of the 1D wavelet filters (for the last filter in the high frequencies) by adding the function EWT Meyer Wavelet last.m and removal of using the mirroring in the 1D code before performing the filtering. These fixes now permit to get almost perfect reconstruction. Finally a test was added in the EWT TF Plan.m function such that it can manage either horizontal or vertical boundaries vectors.
@@ -34,9 +33,7 @@ If you develop some new functionalities and want them included in this toolbox, 
 - Previous version: 1.2 (June 18th, 2013): bugs fixes
 - Previous version: 1.0 (June 10th, 2013): original version
 
-=======================
-	NEEDED TOOLBOXES
-=======================
+NEEDED TOOLBOXES
 
 If you want to run all functionalities, you need to have the following Matlab toolboxes properly installed on computer:
 
@@ -45,15 +42,14 @@ If you want to run all functionalities, you need to have the following Matlab to
 - Elad's Pseudo-Polar FFT toolbox (needed for the 2D transforms except the tensor based transform)
 	available at http://www.cs.technion.ac.il/~elad/software/
 
-=======================
-	  INSTALLATION
-=======================
+
+ INSTALLATION
 
 1- Add the path to all folders to your Matlab configuration (menu Files -> Set Paths)
 
-=======================
-	 ORGANIZATION
-=======================
+
+ORGANIZATION
+
 This toolbox is organized as follows:
 
 EWT
@@ -78,9 +74,8 @@ EWT
    - 1D						: Useful function to plot results in 1D case (Time-Frequency plane, components, boundaries)
    - 2D						: Useful function to plot results in 2D case (different type of components, 2D boundaries,...)
 
-==========================================================
-					UTILIZATION
-==========================================================
+UTILIZATION
+
 The best way to learn how to use this toolbox is to look at the documentation and play with the files named Test_xxxx 
 on the subfolders of the Tests folders.
 The provided test scripts are the ones, with new options, used to generate the experiments presented in the two papers.
