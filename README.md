@@ -57,11 +57,10 @@ If you want to run all functionalities, you need to have the following Matlab to
 This toolbox is organized as follows:
 
 EWT
- |
- | - 1D                           : 1D EWT functions
- | - 2D                           : 2D EWT functions
- |	  | - Curvelet 					: Empirical curvelet transform
- |    | - Littlewood-Paley 			: Empirical Littlewood-Paley wavelet transform
+ - 1D                           : 1D EWT functions
+ - 2D                           : 2D EWT functions
+   - Curvelet 					: Empirical curvelet transform
+   - Littlewood-Paley 			: Empirical Littlewood-Paley wavelet transform
  |    | - Ridgelet 					: Empirical Ridgelet transform
  |    | - Tensor 					: Empirical Tensor wavelet transform
  |    | - Voronoi                   : Empirical Voronoi wavelet transform
