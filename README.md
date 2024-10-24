@@ -3,16 +3,16 @@
 
  This Matlab Toolbox permits to perform the 1D and 2D Empiricals transforms described in the papers:
 
-- J.Gilles, "Empirical wavelet transform" to appear in IEEE Trans. Signal Processing, Vol.61, No.16, 3999--4010, August 2013.
-Preprint available at ftp://ftp.math.ucla.edu/pub/camreport/cam13-33.pdf
-- J.Gilles, G.Tran, S.Osher "2D Empirical transforms. Wavelets, Ridgelets and Curvelets Revisited", SIAM Journal on Imaging Sciences, Vol.7, No.1, 157--186, January 2014. Preprint available at ftp://ftp.math.ucla.edu/pub/camreport/cam13-35.pdf
+- J.Gilles, "Empirical wavelet transform", IEEE Trans. Signal Processing, Vol.61, No.16, 3999--4010, August 2013.
+Preprint available at https://jegilles.sdsu.edu/doc/IEEE_EWT.pdf
+- J.Gilles, G.Tran, S.Osher "2D Empirical transforms. Wavelets, Ridgelets and Curvelets Revisited", SIAM Journal on Imaging Sciences, Vol.7, No.1, 157--186, January 2014. Preprint available at https://jegilles.sdsu.edu/doc/EWT2D.pdf
 - J.Gilles, K. Heal, "A parameterless scale-space approach to find meaningful modes in histograms - Application to image and spectrum segmentation", International Journal of Wavelets, Multiresolution and Information Processing, Vol.12, No.6, 1450044-1--1450044-17, December 2014.
-Preprint available at ftp://ftp.math.ucla.edu/pub/camreport/cam14-05.pdf
+Preprint available at https://jegilles.sdsu.edu/doc/SSHS.pdf
 - Y.Huang, V.De Bortoli, F.Zhou, J.Gilles, "Review of wavelet-based unsupervised texture segmentation, advantage of adaptive wavelets", IET Image Processing, Vol.12, No.9, 1626--1638, August 2018. Preprint available at https://jegilles.sdsu.edu/doc/IET2018.pdf
 - Y.Huang, F.Zhou, J.Gilles, "Empirical curvelet based Fully Convolutional Network for supervised texture image segmentation", Neurocomputing, Vol.349, 31--43, July 2019. Preprint available at https://jegilles.sdsu.edu/doc/2019EWTSupervisedTextures.pdf
 - J.Gilles, "Continuous empirical wavelets systems", Advances in Data Science and Adaptive Analysis, Vol. 12, No 03n04, 2050006, 2020. Preprint available at https://jegilles.sdsu.edu/doc/2020-cewt.pdf
 - B.Hurat, Z.Alvarado, J.Gilles. "The Empirical Watershed Wavelet", Journal of Imaging, Special Issue "2020 Selected Papers from Journal of Imaging Editorial Board Members", Vol.6, No.12, 140, 2020. Paper available at https://www.mdpi.com/2313-433X/6/12/140
-- J. Gilles. "Empirical Voronoi Wavelets". Submitted.
+- J. Gilles. "Empirical Voronoi Wavelets", Constructive Mathematical Analysis, Vol.5, No.4, 183--189, 2022. Preprint available at https://arxiv.org/abs/2407.14275
 
 
 This toolbox is freely distributed and can be used without any charges for research purposes but I will appreciate if you cite the previous papers ;-)
