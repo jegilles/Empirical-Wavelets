@@ -23,7 +23,7 @@ close all
 
 % Choose the signal you want to analyze
 % (sig1,sig2,sig3,sig4=ECG,sig5=seismic,sig6=EEG,sig7=compplex signal1)
-signal = 'sig3';
+signal = 'sig7';
 params.SamplingRate = -1; %put -1 if you don't know the sampling rate
 %params.SamplingRate = 4000; %put -1 if you don't know the sampling rate
 %channel = 50; %for EEG only
@@ -55,7 +55,7 @@ params.InitBounds = [2 25];
 params.log=0;
 
 % Choose the results you want to display (Show=1, Not Show=0)
-Bound=0;   % Display the detected boundaries on the spectrum
+Bound=1;   % Display the detected boundaries on the spectrum
 Comp=1;    % Display the EWT components
 Rec=0;     % Display the reconstructed signal
 TFplane=0; % Display the time-frequency plane (by using the Hilbert 
@@ -106,9 +106,9 @@ end
 if Bound==1 %Show the boundaries on the spectrum
     div=1;
     if (strcmp(params.detect,'adaptive')||strcmp(params.detect,'adaptivereg'))
-        Show_EWT_Boundaries(f,boundaries,div,params.SamplingRate,InitBounds);
+        Show_EWT_Boundaries(f,boundaries,div,params.SamplingRate,params.log,InitBounds);
     else
-        Show_EWT_Boundaries(f,boundaries,div,params.SamplingRate);
+        Show_EWT_Boundaries(f,boundaries,div,params.SamplingRate,params.log);
     end
 end
 
